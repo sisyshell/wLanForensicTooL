@@ -40,7 +40,7 @@ def get_password(SSID):
 if __name__ == "__main__":
   banner()
   print_profile_list(getProfiles())
-  selection = int(input("Select Profile : (if you find all profiles password only enter zero(0))"))
+  selection = int(input("Select Profile : (if you want find password of all profiles only enter zero[0])"))
   banner()
   if(selection != 0):
     get_password(getProfiles()[selection-1])
