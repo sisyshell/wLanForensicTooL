@@ -2,8 +2,8 @@
 
 #### Features
 
-- Wlan profile list
-- Wlan profile password list
+- Find wlan profile list
+- Find password of wlan profiles
 
 #### What is wLanForensicTooL ?
 
