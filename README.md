@@ -5,7 +5,7 @@
 - Wlan profile list
 - Wlan profile password list
 
-#### What is WlanForensicTooL ?
+#### What is wLanForensicTooL ?
 
 Using this tool, access information of previously connected wireless networks on a computer with windows operating system can be obtained.
 
