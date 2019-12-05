@@ -1,0 +1,14 @@
+{
+"getProfiles":{
+"Command":"netsh wlan show profiles",
+"CommandParameters":[],
+"resultColumnNames":["profile"],
+"resultColumnPropertyPatterns":[{"pattern":"(: )([A-Za-z0-9\\_]+)", "groupIndex": 1}]
+},
+"getProfilesKey":{
+"Command":"netsh wlan show profiles name=%SSID% key=clear",
+"CommandParameters":["SSID"],
+"resultColumnNames":["password"],
+"resultColumnPropertyPatterns":[{"pattern":"(Key Content[ ]+:[ ])([\\S]+)\\n", "groupIndex": 1}]
+}
+}
